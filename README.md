@@ -1,16 +1,24 @@
-Commands used:
+# Git and GitHub Basics Assignment
 
-mkdir projects
+## Commands Used
 
-mkdir week1 week2
+1. git init
+Initializes a new Git repository.
 
-touch week1/hello.txt
+2. git add .
+Adds all files to staging area.
 
-cp week1/hello.txt week2/hello_copy.txt
+3. git commit -m "Initial commit"
+Commits staged files.
 
-rm week1/hello.txt
+4. git remote add origin <url>
+Links local repo to GitHub.
 
-vim about_me.txt
+5. git push -u origin main
+Pushes files to GitHub.
 
+6. git clone <url>
+Clones a repository.
 
-This project shows basic Linux command usage.
+7. git status
+Shows repository status.
